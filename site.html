@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jotta Dev | Portfolio</title>
+    <style>
+        /* Estilo Geral */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a; /* Azul bem escuro */
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            padding: 40px;
+            background: #1e293b;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid #334155;
+        }
+
+        h1 {
+            margin: 15px 0;
+            font-size: 2.5rem;
+            color: #38bdf8;
+        }
+
+        .age-tag {
+            background: #38bdf8;
+            color: #0f172a;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .description {
+            margin: 20px 0;
+            color: #94a3b8;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Tags de Skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .skill-tag {
+            background: #334155;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            border: 1px solid transparent;
+            transition: 0.3s;
+            cursor: default;
+        }
+
+        .skill-tag:hover {
+            border-color: #38bdf8;
+            transform: translateY(-3px);
+            background: #1e293b;
+        }
+
+        /* Links Sociais */
+        .links {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; /* Garante que quebre linha em telas muito pequenas */
+            gap: 15px;
+        }
+
+        .links a {
+            display: flex;
+            align-items: center;
+            gap: 8px; /* Espaço entre emoji e texto */
+            color: #38bdf8;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+            padding: 10px 18px;
+            border-radius: 8px;
+            background: rgba(56, 189, 248, 0.05);
+            border: 1px solid rgba(56, 189, 248, 0.1);
+        }
+
+        .links a:hover {
+            background: rgba(56, 189, 248, 0.15);
+            border-color: #38bdf8;
+            color: #7dd3fc;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <span class="age-tag">Portfolio</span>
+        <h1>Jotta Dev</h1>
+        
+        <p class="description">
+            Apaixonado por tecnologia e focado em construir soluções eficientes através do código.
+        </p>
+
+        <div class="skills">
+            <div class="skill-tag">🎓 Computer Science</div>
+            <div class="skill-tag">🐍 Python Dev</div>
+            <div class="skill-tag">⚙️ C++ Enthusiast</div>
+            <div class="skill-tag">🌐 HTML/CSS</div>
+            <div class="skill-tag">🤖 Discord Bots</div>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/JProcam9m" target="_blank">
+                <span>💻</span> GitHub
+            </a>
+            <a href="https://www.instagram.com/jvdeveloper/" target="_blank">
+                <span>📸</span> Instagram
+            </a>
+            <a href="mailto:piresjoaovitorgame@gmail.com or +55 16 99706-4579">
+                <span>✉️</span> Contato
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
